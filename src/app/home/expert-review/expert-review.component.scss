@@ -1,0 +1,97 @@
+
+
+// .Article_Image{
+//   height: 30vh;
+//   width: 45vh;
+// }
+
+
+.title{
+  font-family: "Joan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-buttons {
+  ion-icon {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+}
+ion-toolbar {
+  --background: #AEA8A8;   
+  color: black;          
+  --padding-top: 15px;    
+  --padding-bottom: 15px;
+}
+
+ion-title {
+  color: black; 
+  font-family: "joan";
+  font-size: 20px;
+}
+
+ion-icon {
+  color: black; 
+}
+
+
+
+.news-title{
+  position: relative;
+  top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+  h3{
+    font-weight: 600;
+  }
+  
+}
+
+.news-title-a {
+
+  // position: relative;
+  // top: 1.3rem;
+  color: blue;
+}
+
+.news-sub-card{
+  position: relative;
+  top: 9rem;
+  margin: 10px 10px;
+  padding: 0 15px;
+}
+
+.title-news{
+  padding: 10px 15px
+}
+
+.news-cardd{
+  margin: 33px 0;
+  position: relative;
+  bottom: 25px;
+}
+
+.News_Link_button{
+  background-color:#e91e0f;
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+
+  
+a{
+  color: white;
+  text-decoration: none;
+}  
+}
+
+.main_news_card{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-bottom: 15px;
+  color: black;
+}

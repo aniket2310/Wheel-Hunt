@@ -1,0 +1,30 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>Displacement</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+      <!-- <ion-icon name="search"></ion-icon>
+      <ion-icon name="location-outline"></ion-icon> -->
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="range-slider">
+    <ion-icon slot="start" name="cash-outline"></ion-icon>
+    <h4>Displacement or C.C.</h4>
+    <ion-icon slot="end" name="cash-outline"></ion-icon>
+  </div>
+
+  <div class="price-filter">
+    <ion-row>
+      <ion-col size="6" *ngFor="let range of displacementRanges">
+        <div class="custom-div" (click)="viewBikesByCC(range.min, range.max)">
+          {{ range.label }}
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

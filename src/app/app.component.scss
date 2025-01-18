@@ -1,0 +1,33 @@
+ion-header {
+  height: 10rem;
+}
+
+div.bg {
+  height: 10rem;
+  width: 130%;
+  background: linear-gradient(90deg, var(--ion-color-secondary) 0%, var(--ion-color-primary) 100%);
+  margin-top: -6rem;
+}
+
+.menu-label ion-icon {
+  visibility: visible !important;
+  display: inline-block;
+}
+
+.notif {
+  position: absolute;
+  top: 2rem;
+  left: 8rem;
+}
+
+.toggle {
+  font-size: 17px;
+}
+
+.menu-label {
+  color: #FF3700;
+  font-size: 15px;
+}
+ion-icon {
+  color: #FF3700 !important;
+}

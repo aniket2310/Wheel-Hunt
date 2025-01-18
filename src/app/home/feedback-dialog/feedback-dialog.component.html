@@ -1,0 +1,27 @@
+<div class="main_feedback_dailog">
+  <h2 mat-dialog-title>{{data.header}}</h2>
+<mat-dialog-content>
+  <p>{{data.message}}</p>
+  <div class="feedback-buttons">
+    <div>
+    <button mat-button (click)="onFeedbackSelected('Angry')">Angry ⭐
+    </button>
+  </div>
+  <div>
+    <button mat-button (click)="onFeedbackSelected('Dissatisfied')">Dissatisfied ⭐⭐</button>
+  </div>
+  <div>
+    <button mat-button (click)="onFeedbackSelected('Neutral')">Neutral ⭐⭐⭐</button>
+  </div>
+  <div>
+    <button mat-button (click)="onFeedbackSelected('Satisfied')">Satisfied ⭐⭐⭐⭐</button>
+  </div>
+  <div>
+    <button mat-button (click)="onFeedbackSelected('Very Satisfied')">Very Satisfied ⭐⭐⭐⭐</button>
+  </div>
+  </div>
+</mat-dialog-content>
+  <button class="FeedbackClose" mat-button (click)="onClose()">Close</button>
+
+
+</div>

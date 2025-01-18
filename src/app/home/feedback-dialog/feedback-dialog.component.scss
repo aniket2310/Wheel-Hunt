@@ -1,0 +1,25 @@
+.main_feedback_dailog{
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;  
+  text-align: left;
+
+
+  button,p{
+    color: black;
+    font-size: 15px;
+  }
+  h2{
+    color:black;
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .FeedbackClose{
+    background-color: black;
+    color: white;
+    margin: 10px ;
+  }
+
+}

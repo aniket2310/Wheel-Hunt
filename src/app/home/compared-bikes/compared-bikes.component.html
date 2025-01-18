@@ -1,0 +1,51 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>Compared Bikes</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="comparedBikeData">
+    <div class="bike-comparison-card">
+      <ion-grid>
+        <ion-row class="bike-comparison-row ion-align-items-center">
+          <!-- Left Bike -->
+          <ion-col size="5" class="bike-col">
+            <div class="bike-item">
+              <img [src]="comparedBikeData.bike1.image" class="popular_Comp_IMg" [alt]="comparedBikeData.bike1.name" />
+              <p>{{ comparedBikeData.bike1.name }}</p>
+            </div>
+          </ion-col>
+
+          <!-- "Vs" Section -->
+          <ion-col size="2" class="vs-col">
+            <div class="vs-text">Vs</div>
+          </ion-col>
+
+          <!-- Right Bike -->
+          <ion-col size="5" class="bike-col">
+            <div class="bike-item">
+              <img [src]="comparedBikeData.bike2.image" class="popular_Comp_IMg" [alt]="comparedBikeData.bike2.name" />
+              <p>{{ comparedBikeData.bike2.name }}</p>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <div class="comp-bike-main-div">
+        <p>-- Specifications --</p>
+      </div>
+
+      <div class="specifications" *ngFor="let spec of comparedBikeData.Specifications">
+        <p class="spef-heading">{{ spec.title }}</p>
+        <div class="spef-sub">
+          <p>{{ spec.bike1 }}</p> || <p>{{ spec.bike2 }}</p>
+        </div>
+        <div class="horizontal-line"></div>
+      </div>
+    </div>
+  </div>
+</ion-content>

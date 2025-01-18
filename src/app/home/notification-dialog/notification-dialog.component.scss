@@ -1,0 +1,26 @@
+.Dailog_Box{
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.notifToggle {
+  display: flex;
+  align-items: center;
+}
+
+mat-dialog-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+mat-dialog-content {
+  text-align: center;
+}
+.notifButton{
+  background-color: black;
+  color: white;
+  padding:5px 10px;
+  margin-bottom :10px;
+  border-radius: 10px;
+}

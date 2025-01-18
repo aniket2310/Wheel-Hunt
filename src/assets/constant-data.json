@@ -1,0 +1,1385 @@
+{
+  "All_bike_Data": [
+    {
+      "id": 1,
+      "name": "Royal Enfield Classic 350",
+      "specs": "480 kg | 16.8 bhp | 350 cc",
+      "price": 250000,
+      "launchDate": "09-11-2024",
+      "image": "assets/icon/images/Royal_Enfield_Classic_350.png",
+      "posture": "Commuter",
+      "displacement": 350,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Rebel Red", "hex": "#f40909" },
+        { "name": "Rebel Brown", "hex": "#E53935" },
+        { "name": "Rebel Black", "hex": "#37474F" },
+        { "name": "Rebel Orange", "hex": "#FF9800" },
+        { "name": "Rebel Green", "hex": "#22ff00" },
+        { "name": "Rebel Blue", "hex": "#0022ff" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "57,000" },
+        { "name": "Deluxe", "price": "60,000" },
+        { "name": "Pro", "price": "65,000" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Honda Shine 125",
+      "specs": "192 kg | 12.2 bhp | 125 cc",
+      "price": 125900,
+      "launchDate": "15-09-2024",
+      "image": "assets/icon/images/Honda_shine_125.png",
+      "posture": "commuter",
+      "displacement": 125,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+     "availableColors": [
+          { "name": "Metallic Red", "hex": "#b71c1c" },
+          { "name": "Pearl White", "hex": "#FFFFFF" },
+          { "name": "Matte Grey", "hex": "#424242" },
+          { "name": "Black", "hex": "#000000" }
+        ],
+        "bikeVariants": [
+          { "name": "Standard", "price": "1,69,900" },
+          { "name": "Deluxe", "price": "1,79,900" },
+          { "name": "Premium", "price": "1,89,900" }
+        ]
+    },
+    {
+      "id": 3,
+      "name": "Hero Splender",
+      "specs": "150 kg | 11.9 bhp | 100 cc",
+      "price": 112000,
+      "launchDate": "25-08-2024",
+      "image": "assets/icon/images/Hero_Splender.png",
+      "posture": "Commuter",
+      "displacement": 100,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Classic Black", "hex": "#000000" },
+        { "name": "Candy Red", "hex": "#f44336" },
+        { "name": "Bright Blue", "hex": "#2196F3" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "3,11,700" },
+        { "name": "Deluxe", "price": "3,41,700" },
+        { "name": "Premium", "price": "3,71,700" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bajaj Pulser 150",
+      "specs": "162 kg | 19.4 bhp | 150 cc",
+      "price": 198000,
+      "launchDate": "24-03-2024",
+      "image": "assets/icon/images/bajaj_pulsar_150.png",
+      "posture": "Street Bike",
+      "displacement": 150,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Sporty Yellow", "hex": "#FFEB3B" },
+        { "name": "Matte Black", "hex": "#212121" },
+        { "name": "Racing Red", "hex": "#D32F2F" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "4,26,700" },
+        { "name": "Deluxe", "price": "4,56,700" },
+        { "name": "Premium", "price": "4,86,700" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Yamaha R15 V4",
+      "specs": "186 kg | 27.4 bhp | 250 cc",
+      "price": 350900,
+      "launchDate": "25-08-2024",
+      "image": "assets/icon/images/yamaha_r15.png",
+      "posture": "sports bike",
+      "displacement": 250,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Racing Blue", "hex": "#1E88E5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Metallic Red", "hex": "#D50000" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "4,53,000" },
+        { "name": "Deluxe", "price": "4,83,000" },
+        { "name": "Premium", "price": "5,13,000" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "TVS Rider",
+      "specs": "210 kg | 14.4 bhp | 150 cc",
+      "price": 121700,
+      "launchDate": "27-05-2024",
+      "image": "assets/icon/images/tvs_raider.png",
+      "posture": "commuter",
+      "displacement": 250,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Neon Green", "hex": "#76FF03" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Bright Yellow", "hex": "#FDD835" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "7,56,700" },
+        { "name": "Deluxe", "price": "7,86,700" },
+        { "name": "Premium", "price": "8,16,700" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kawasaki Z900",
+      "specs": "1050 kg | 30.4 bhp | 900 cc",
+      "price": 1580000,
+      "launchDate": "20-01-2024",
+      "image": "assets/icon/images/Kawasaki_z900.png",
+      "posture": "Super Bike",
+      "displacement": 900,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+        "availableColors": [
+          { "name": "Pearl White", "hex": "#ECEFF1" },
+          { "name": "Matte Grey", "hex": "#546E7A" },
+          { "name": "Candy Red", "hex": "#FF5252" }
+        ],
+        "bikeVariants": [
+          { "name": "Standard", "price": "6,46,700" },
+          { "name": "Deluxe", "price": "6,76,700" },
+          { "name": "Premium", "price": "7,06,700" }
+        ]
+    },
+    {
+      "id": 8,
+      "name": "BMW GSA 1200",
+      "specs": "1550 kg | 35.4 bhp | 1200 cc",
+      "price": 2790000,
+      "launchDate": "25-08-2024",
+      "image": "assets/icon/images/BMW_GSA_1200.png",
+      "posture": "Adventure",
+      "displacement": 1200,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Luxury Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Chrome Silver", "hex": "#B0BEC5" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "8,64,700" },
+        { "name": "Deluxe", "price": "8,94,700" },
+        { "name": "Premium", "price": "9,24,700" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "KTM Duke 200",
+      "specs": "195 kg | 27.4 bhp | 200 cc",
+      "price": 245000,
+      "launchDate": "12-04-2024",
+      "image": "assets/icon/images/KTM_duke_200.png",
+      "posture": "sports bike",
+      "displacement": 200,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Luxury Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Chrome Silver", "hex": "#B0BEC5" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "8,64,700" },
+        { "name": "Deluxe", "price": "8,94,700" },
+        { "name": "Premium", "price": "9,24,700" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Harley-Davidson Fat Bob",
+      "specs": "1800 kg | 28.4 bhp | 1800 cc",
+      "price": 1080700,
+      "launchDate": "15-06-2022",
+      "image": "assets/icon/images/Harley-Davidson_Fat_Bob.png",
+      "posture": "Super Bike",
+      "displacement": 1800,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Luxury Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Chrome Silver", "hex": "#B0BEC5" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "8,64,700" },
+        { "name": "Deluxe", "price": "8,94,700" },
+        { "name": "Premium", "price": "9,24,700" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bajaj Dominar 400",
+      "specs": "480 kg | 25.4 bhp | 400 cc",
+      "price": 319700,
+      "launchDate": "24-03-2024",
+      "image": "assets/icon/images/bajaj_dominar_400.png",
+      "posture": "Tourer",
+      "displacement": 400,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Luxury Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Chrome Silver", "hex": "#B0BEC5" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "8,64,700" },
+        { "name": "Deluxe", "price": "8,94,700" },
+        { "name": "Premium", "price": "9,24,700" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Benili 600i",
+      "specs": "820 kg | 37.4 bhp | 600 cc",
+      "price": 526700,
+      "launchDate": "01-02-2024",
+      "image": "assets/icon/images/Benili_600i.png",
+      "posture": "sports bike",
+      "displacement": 600,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Luxury Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Chrome Silver", "hex": "#B0BEC5" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "8,64,700" },
+        { "name": "Deluxe", "price": "8,94,700" },
+        { "name": "Premium", "price": "9,24,700" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "BMW GSA 650",
+      "specs": "1100 kg | 32.4 bhp | 650 cc",
+      "price": 8000000,
+      "launchDate": "01-03-2024",
+      "image": "assets/icon/images/BMW_GSA_650.png",
+      "posture": "Adventure",
+      "displacement": 650,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Luxury Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#000000" },
+        { "name": "Chrome Silver", "hex": "#B0BEC5" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "8,64,700" },
+        { "name": "Deluxe", "price": "8,94,700" },
+        { "name": "Premium", "price": "9,24,700" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Ather 450X",
+      "specs": "286 kg | 8 kW | 116 km range",
+      "price": 135000,
+      "launchDate": "10-01-2024",
+      "image": "assets/icon/images/Ather_450X.png",
+      "posture": "Moped",
+      "displacement": 0,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Bangalore",
+      "availableColors": [
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Space Grey", "hex": "#4A4A4A" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": " 1,35,000" },
+        { "name": "Pro", "price": " 1,55,000" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Ola S1 Pro",
+      "specs": "121 kg | 8.5 kW | 181 km range",
+      "price": 129999,
+      "launchDate": "20-07-2024",
+      "image": "assets/icon/images/Ola_S1_Pro.png",
+      "posture": "Moped",
+      "displacement": 0,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Delhi",
+      "availableColors": [
+        { "name": "Neo Mint", "hex": "#00C853" },
+        { "name": "Jet Black", "hex": "#000000" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": " 1,29,999" },
+        { "name": "Pro", "price": " 1,49,999" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Revolt RV400",
+      "specs": "108 kg | 3 kW | 150 km range",
+      "price": 124999,
+      "launchDate": "05-03-2024",
+      "image": "assets/icon/images/Revolt_RV400.png",
+      "posture": "commuter",
+      "displacement": 0,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Pune",
+      "availableColors": [
+        { "name": "Rebel Red", "hex": "#FF1744" },
+        { "name": "Midnight Black", "hex": "#1A1A1A" }
+      ],
+      "bikeVariants": [
+        { "name": "Base", "price": " 1,24,999" },
+        { "name": "Premium", "price": " 1,34,999" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "TVS iQube ST",
+      "specs": "128 kg | 4.4 kW | 145 km range",
+      "price": 125000,
+      "launchDate": "15-02-2024",
+      "image": "assets/icon/images/TVS_iQube_ST.png",
+      "posture": "MaxiScooter",
+      "displacement": 0,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Chennai",
+      "availableColors": [
+        { "name": "Pearl White", "hex": "#EDEDED" },
+        { "name": "Starlight Blue", "hex": "#007FFF" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": " 1,25,000" },
+        { "name": "ST", "price": " 1,45,000" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Bajaj Chetak Electric",
+      "specs": "132 kg | 4 kW | 108 km range",
+      "price": 142620,
+      "launchDate": "18-04-2024",
+      "image": "assets/icon/images/Bajaj_Chetak_Electric.png",
+      "posture": "scooter",
+      "displacement": 0,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Indigo Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#212121" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": " 1,42,620" },
+        { "name": "Premium", "price": " 1,52,620" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Royal Enfield Hunter 350",
+      "specs": "410 kg | 28.5 bhp | 350 km range",
+      "price": 100000,
+      "launchDate": "18-04-2024",
+      "image": "assets/icon/images/Royal_Enfield_hunter_350.png",
+      "posture": "Cruiser",
+      "displacement": 350,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Indigo Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#212121" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": " 1,42,620" },
+        { "name": "Premium", "price": " 1,52,620" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Royal Enfield GT 650",
+      "specs": "785 kg | 36.5 bhp | 650 km range",
+      "price": 450000,
+      "launchDate": "01-01-2024",
+      "image": "assets/icon/images/Royal Enfield GT 650.png",
+      "posture": "Cafe Racer",
+      "displacement": 650,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Chrome", "hex": "#c0c0c0" },
+        { "name": "Matte Black", "hex": "#212121" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": " 5,42,620" },
+        { "name": "Premium", "price": " 7,52,620" }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "YEZDI Scrambler 450",
+      "specs": "488 kg | 36.5 bhp | 450 km range",
+      "price": 600000,
+      "launchDate": "01-01-2024",
+      "image": "assets/icon/images/Yezdi Scrambler.png",
+      "posture": "Scrambler",
+      "displacement": 450,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Chrome", "hex": "#c0c0c0" },
+        { "name": "Matte Black", "hex": "#212121" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "92,620" },
+        { "name": "Premium", "price": "102,620" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Bajaj Avenger 220",
+      "specs": "350 kg | 29.8 bhp | 220 cc",
+      "price": 185620,
+      "launchDate": "18-04-2024",
+      "image": "assets/icon/images/Bajaj-Avenger-220.png",
+      "posture": "cruiser",
+      "displacement": 0,
+      "isFavourite": false,
+      "location": "Ex-Showroom price, Mumbai",
+      "availableColors": [
+        { "name": "Indigo Blue", "hex": "#3F51B5" },
+        { "name": "Matte Black", "hex": "#212121" }
+      ],
+      "bikeVariants": [
+        { "name": "Standard", "price": "₹ 1,42,620" },
+        { "name": "Premium", "price": "₹ 1,52,620" }
+      ]
+    }
+  ],
+
+    "bikeComparisons": [
+      {
+        "id":1,
+        "bike1": {
+          "image": "assets/icon/images/Royal_Enfield_himalayan_410.png",
+          "name": "Royal Enfield Himalayan 410"
+        },
+        "bike2": {
+          "image": "assets/icon/images/Royal_Enfield_hunter_350.png",
+          "name": "Royal Enfield Hunter 350"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "411 cc",
+            "bike2": "349 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "15 Liters",
+            "bike2": "13 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "24.3 bhp",
+            "bike2": "20.2 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "32 Nm",
+            "bike2": "27 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "30",
+            "bike2": "35"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "120",
+            "bike2": "110"
+          }
+        ]
+      },
+      {
+        "id":2,
+        "bike1": {
+          "image": "assets/icon/images/KTM_duke_200.png",
+          "name": "KTM Duke 390"
+        },
+        "bike2": {
+          "image": "assets/icon/images/benelli-600i2.png",
+          "name": "Benili 600i"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "373 cc",
+            "bike2": "197 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "13.4 Liters",
+            "bike2": "12.8 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "42.9 bhp",
+            "bike2": "20.2 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "37 Nm",
+            "bike2": "17 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "25",
+            "bike2": "37"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "167",
+            "bike2": "128"
+          }
+        ]
+      },
+      {
+        "id":3,
+        "bike1": {
+          "image": "assets/icon/images/bajaj_pulsar_150.png",
+          "name": "Bajaj Pulsar 150"
+        },
+        "bike2": {
+          "image": "assets/icon/images/yamaha-mt-15.png",
+          "name": "Yamaha MT-15"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "149 cc",
+            "bike2": "155 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "15 Liters",
+            "bike2": "10 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "14 bhp",
+            "bike2": "18 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "13.6 Nm",
+            "bike2": "14.1 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "45",
+            "bike2": "50"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "110",
+            "bike2": "130"
+          }
+        ]
+      },{
+        "id": 4,
+        "bike1": {
+          "image": "assets/icon/images/Royal_Enfield_Classic_350.png",
+          "name": "Royal Enfield Classic 350"
+        },
+        "bike2": {
+          "image": "assets/icon/images/Royal_Enfield_hunter_350.png",
+          "name": "Royal Enfield Hunter 350"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "350 cc",
+            "bike2": "350 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "15 Liters",
+            "bike2": "13 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "24.3 bhp",
+            "bike2": "20.2 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "32 Nm",
+            "bike2": "27 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "30",
+            "bike2": "35"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "120",
+            "bike2": "110"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "bike1": {
+          "image": "assets/icon/images/Yezdi Scrambler.png",
+          "name": "YEZDI Scrambler 450"
+        },
+        "bike2": {
+          "image": "assets/icon/images/bajaj_dominar_400.png",
+          "name": "Bajaj Dominar 400"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "450 cc",
+            "bike2": "400 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "19.4 Liters",
+            "bike2": "21.9 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "42.9 bhp",
+            "bike2": "20.8 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "37.64 Nm",
+            "bike2": "17.28 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "25",
+            "bike2": "37"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "167",
+            "bike2": "128"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "bike1": {
+          "image": "assets/icon/images/Honda_shine_125.png",
+          "name": "Honda Shine 125"
+        },
+        "bike2": {
+          "image": "assets/icon/images/tvs_raider.png",
+          "name": "TVS Rider"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "125 cc",
+            "bike2": "150 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "22 Liters",
+            "bike2": "22 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "16.4 bhp",
+            "bike2": "18.4 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "13.25 Nm",
+            "bike2": "14.18 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "45",
+            "bike2": "50"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "110",
+            "bike2": "130"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "bike1": {
+          "image": "assets/icon/images/Hero_Splender.png",
+          "name": "Hero Splender"
+        },
+        "bike2": {
+          "image": "assets/icon/images/tvs_raider.png",
+          "name": "TVS Rider"
+        },
+        "Specifications": [
+          {
+            "title": "Displacement [CC]",
+            "bike1": "100 cc",
+            "bike2": "150 cc"
+          },
+          {
+            "title": "Tank Capacity",
+            "bike1": "15 Liters",
+            "bike2": "22 Liters"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "21.4 bhp",
+            "bike2": "25.7 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "30 Nm",
+            "bike2": "22 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "35",
+            "bike2": "32"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "120",
+            "bike2": "150"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "bike1": {
+          "image": "assets/icon/images/Ather_450X.png",
+          "name": "Ather 450X"
+        },
+        "bike2": {
+          "image": "assets/icon/images/Ola_S1_Pro.png",
+          "name": "Ola S1 Pro"
+        },
+        "Specifications": [
+          {
+            "title": "Battery [Watt]",
+            "bike1": "15 w",
+            "bike2": "12 w"
+          },
+          {
+            "title": "Battery Capacity",
+            "bike1": "4 Hours",
+            "bike2": "8 Hours"
+          },
+          {
+            "title": "Max Power",
+            "bike1": "26 bhp",
+            "bike2": "43 bhp"
+          },
+          {
+            "title": "Max Torque",
+            "bike1": "22.6 Nm",
+            "bike2": "36.9 Nm"
+          },
+          {
+            "title": "Mileage [Km Pl]",
+            "bike1": "60",
+            "bike2": "75"
+          },
+          {
+            "title": "Top Speed [Km/ Hr]",
+            "bike1": "70",
+            "bike2": "65"
+          }
+        ]
+      }
+    ],
+ "Upcomming_bikes": [
+  {
+    "name": "Royal Enfield Classic 650",
+    "specs": "480 kg | 29.8 bhp | 650 cc",
+    "price": 594707,
+    "launchDate": "08-05-2024",
+    "image": "assets/icon/images/Royal_Enfield_Classic_350.png"
+  },
+  {
+    "name": "Hero Xpulse 421",
+    "specs": "382 kg | 39.2 bhp | 421 cc",
+    "price": 249900,
+    "launchDate": "15-11-2024",
+    "image": "assets/icon/images/Hero-Xpulse-421.png"
+  },
+  {
+    "name": "Aprilia Tuono 457",
+    "specs": "580 kg | 24.4 bhp | 457 cc",
+    "price": 681700,
+    "launchDate": "05-08-2024",
+    "image": "assets/icon/images/Aprilia_Tuono_457.png"
+  },
+  {
+    "name": "BMW F450 GS",
+    "specs": "600 kg | 32.4 bhp | 450 cc",
+    "price": 881700,
+    "launchDate": "25-11-2024",
+    "image": "assets/icon/images/BMW_GSA_650.png"
+  },
+  {
+    "name": "Ola Roadster",
+    "specs": "189 kg | 8 w | 158 Km Range",
+    "price": 181700,
+    "launchDate": "25-11-2024",
+    "image": "assets/icon/images/Ola_Roadster.png"
+  },
+  {
+    "name": "Hero Xtreme 250R",
+    "specs": "355 kg | 25.4 bhp | 250 cc",
+    "price": 481700,
+    "launchDate": "07-11-2024",
+    "image": "assets/icon/images/Hero_Xtreme_250R.png"
+  }
+]
+,
+"Electric_bikes": [
+  {
+    "id": 14,
+    "name": "Ather 450X",
+    "specs": "108 kg | 6 kW | 116 km range",
+    "price": 135000,
+    "launchDate": "10-01-2024",
+    "image": "assets/icon/images/Ather_450X.png",
+    "posture": "commuter",
+    "displacement": 0,
+    "isFavourite": false,
+    "location": "Ex-Showroom price, Bangalore",
+    "availableColors": [
+      { "name": "White", "hex": "#FFFFFF" },
+      { "name": "Space Grey", "hex": "#4A4A4A" }
+    ],
+    "bikeVariants": [
+      { "name": "Standard", "price": "₹ 1,35,000" },
+      { "name": "Pro", "price": "₹ 1,55,000" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ola S1 Pro",
+    "specs": "121 kg | 8.5 kW | 181 km range",
+    "price": 129999,
+    "launchDate": "20-07-2024",
+    "image": "assets/icon/images/Ola_S1_Pro.png",
+    "posture": "commuter",
+    "displacement": 0,
+    "isFavourite": false,
+    "location": "Ex-Showroom price, Delhi",
+    "availableColors": [
+      { "name": "Neo Mint", "hex": "#00C853" },
+      { "name": "Jet Black", "hex": "#000000" }
+    ],
+    "bikeVariants": [
+      { "name": "Standard", "price": "₹ 1,29,999" },
+      { "name": "Pro", "price": "₹ 1,49,999" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Revolt RV400",
+    "specs": "108 kg | 3 kW | 150 km range",
+    "price": 124999,
+    "launchDate": "05-03-2024",
+    "image": "assets/icon/images/Revolt_RV400.png",
+    "posture": "sports",
+    "displacement": 0,
+    "isFavourite": false,
+    "location": "Ex-Showroom price, Pune",
+    "availableColors": [
+      { "name": "Rebel Red", "hex": "#FF1744" },
+      { "name": "Midnight Black", "hex": "#1A1A1A" }
+    ],
+    "bikeVariants": [
+      { "name": "Base", "price": "₹ 1,24,999" },
+      { "name": "Premium", "price": "₹ 1,34,999" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "TVS iQube ST",
+    "specs": "128 kg | 4.4 kW | 145 km range",
+    "price": 125000,
+    "launchDate": "15-02-2024",
+    "image": "assets/icon/images/TVS_iQube_ST.png",
+    "posture": "commuter",
+    "displacement": 0,
+    "isFavourite": false,
+    "location": "Ex-Showroom price, Chennai",
+    "availableColors": [
+      { "name": "Pearl White", "hex": "#EDEDED" },
+      { "name": "Starlight Blue", "hex": "#007FFF" }
+    ],
+    "bikeVariants": [
+      { "name": "Standard", "price": "₹ 1,25,000" },
+      { "name": "ST", "price": "₹ 1,45,000" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bajaj Chetak Electric",
+    "specs": "132 kg | 4 kW | 108 km range",
+    "price": 142620,
+    "launchDate": "18-04-2024",
+    "image": "assets/icon/images/Bajaj_Chetak_Electric.png",
+    "posture": "scooter",
+    "displacement": 0,
+    "isFavourite": false,
+    "location": "Ex-Showroom price, Mumbai",
+    "availableColors": [
+      { "name": "Indigo Blue", "hex": "#3F51B5" },
+      { "name": "Matte Black", "hex": "#212121" }
+    ],
+    "bikeVariants": [
+      { "name": "Standard", "price": "₹ 1,42,620" },
+      { "name": "Premium", "price": "₹ 1,52,620" }
+    ]
+  }
+],
+    "goToOnRoadPrice": [
+      {
+        "id":1,
+        "name": "Royal Enfield",
+        "exShowroomPrice": "50,000",
+        "rtoPrice": "5,000",
+        "insurancePrice": "2,000",
+        "onRoadPrice": "57,000"
+      },
+      {
+        "id":2,
+        "name": "Honda Shine 125",
+        "exShowroomPrice": "1,49,900",
+        "rtoPrice": "15,000",
+        "insurancePrice": "5,000",
+        "onRoadPrice": "1,69,900"
+      },
+      {
+        "id":3,
+        "name": "Hero Splender",
+        "exShowroomPrice": "2,81,700",
+        "rtoPrice": "20,000",
+        "insurancePrice": "10,000",
+        "onRoadPrice": "3,11,700"
+      },
+      {
+        "id":4,
+        "name": "Bajaj Pulser",
+        "exShowroomPrice": "3,81,700",
+        "rtoPrice": "30,000",
+        "insurancePrice": "15,000",
+        "onRoadPrice": "4,26,700"
+      },
+      {
+        "id":5,
+        "name": "Yamaha R15 V4",
+        "exShowroomPrice": "4,00,000",
+        "rtoPrice": "35,000",
+        "insurancePrice": "18,000",
+        "onRoadPrice": "4,53,000"
+      },
+      {
+        "id":6,
+        "name": "TVS Rider",
+        "exShowroomPrice": "5,81,700",
+        "rtoPrice": "45,000",
+        "insurancePrice": "20,000",
+        "onRoadPrice": "6,46,700"
+      },
+      {
+        "id":7,
+        "name": "Kawasaki Z900",
+        "exShowroomPrice": "6,81,700",
+        "rtoPrice": "50,000",
+        "insurancePrice": "25,000",
+        "onRoadPrice": "7,56,700"
+      },
+      {
+        "id":8,
+        "name": "BMW GSA1200",
+        "exShowroomPrice": "7,81,700",
+        "rtoPrice": "55,000",
+        "insurancePrice": "28,000",
+        "onRoadPrice": "8,64,700"
+      }
+
+    ],
+  
+  "BrandDetails":
+  [
+    {
+      "name": "Royal Enfield",
+      "image": "assets/brands/royal-enfield.png"
+    },
+    {
+      "name": "Honda",
+      "image": "assets/brands/honda.png"
+    },
+    {
+      "name": "Hero",
+      "image": "assets/brands/hero.png"
+    },
+    {
+      "name": "Bajaj",
+      "image": "assets/brands/bajaj.png"
+    },
+    {
+      "name": "Yamaha",
+      "image": "assets/brands/yamaha.png"
+    },
+    {
+      "name": "TVS",
+      "image": "assets/brands/tvs.png"
+    },
+    {
+      "name": "Kawasaki",
+      "image": "assets/brands/kawasaki.png"
+    },
+    {
+      "name": "BMW",
+      "image": "assets/brands/bmw.png"
+    },
+    {
+      "name": "KTM",
+      "image": "assets/brands/ktm.png"
+    },
+    {
+      "name": "Harley-Davidson",
+      "image": "assets/brands/harley.png"
+    },
+    {
+      "name": "YEZDI",
+      "image": "assets/brands/Yedzi.png"
+    }
+  ],
+  "budgetRanges": 
+  [
+    {
+      "label": "₹ 50,000 - ₹ 1 Lakh",
+      "min": 50000,
+      "max": 100000
+    },
+    {
+      "label": "₹ 1 Lakh - ₹ 2 Lakh",
+      "min": 100000,
+      "max": 200000
+    },
+    {
+      "label": "₹ 2 Lakh - ₹ 3 Lakh",
+      "min": 200000,
+      "max": 300000
+    },
+    {
+      "label": "₹ 3 Lakh - ₹ 4 Lakh",
+      "min": 300000,
+      "max": 400000
+    },
+    {
+      "label": "₹ 4 Lakh - ₹ 5 Lakh",
+      "min": 400000,
+      "max": 500000
+    },
+    {
+      "label": "₹ 5 Lakh - ₹ 6 Lakh",
+      "min": 500000,
+      "max": 600000
+    },
+    {
+      "label": "Above ₹ 6 Lakh",
+      "min": 600000,
+      "max": 700000
+    },
+    {
+      "label": "Above ₹ 7 Lakh",
+      "min": 700000,
+      "max": "Infinity"
+    }
+  ],
+  "displacementRanges":
+  [
+    {
+      "label": "Upto 100 cc",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "label": "100 - 110 cc",
+      "min": 100,
+      "max": 110
+    },
+    {
+      "label": "110 - 125 cc",
+      "min": 110,
+      "max": 125
+    },
+    {
+      "label": "125 - 150 cc",
+      "min": 125,
+      "max": 150
+    },
+    {
+      "label": "150 - 175 cc",
+      "min": 150,
+      "max": 175
+    },
+    {
+      "label": "175 - 210 cc",
+      "min": 175,
+      "max": 210
+    },
+    {
+      "label": "250 - 300 cc",
+      "min": 250,
+      "max": 300
+    },
+    {
+      "label": "300 - 500 cc",
+      "min": 300,
+      "max": 500
+    },
+    {
+      "label": "500 - 800 cc",
+      "min": 500,
+      "max": 800
+    },
+    {
+      "label": "800 - 1000 cc",
+      "min": 800,
+      "max": 1000
+    },
+    {
+      "label": "1000 - 1200 cc",
+      "min": 1000,
+      "max": 1200
+    },
+    {
+      "label": "Above 1200 cc",
+      "min": 1200,
+      "max": "Infinity"
+    }
+  ],
+  "bikeCategories":
+  [
+    {
+      "posture": "Sports Bike",
+      "image": "assets/icon/sports-bike.png"
+    },
+    {
+      "posture": "Scooter",
+      "image": "assets/icon/images/Bajaj_Chetak_Electric.png"
+    },
+    {
+      "posture": "Cruiser",
+      "image": "assets/icon/cruiser.png"
+    },
+    {
+      "posture": "Commuter",
+      "image": "assets/icon/images/Honda_shine_125.png"
+    },
+    {
+      "posture": "Street Bike",
+      "image": "assets/icon/images/bajaj_pulsar_150.png"
+    },
+    {
+      "posture": "Super Bike",
+      "image": "assets/icon/images/Kawasaki_z900.png"
+    },
+    {
+      "posture": "Cafe Racer",
+      "image": "assets/icon/images/Royal Enfield GT 650.png"
+    },
+    {
+      "posture": "Scrambler",
+      "image": "assets/icon/scrambler.png"
+    },
+    {
+      "posture": "Adventure",
+      "image": "assets/icon/images/BMW_GSA_1200.png"
+    },
+    {
+      "posture": "Moped",
+      "image": "assets/icon/images/Ola_S1_Pro.png"
+    },
+    {
+      "posture": "Tourer",
+      "image": "assets/icon/images/bajaj_dominar_400.png"
+    },
+    {
+      "posture": "MaxiScooter",
+      "image": "assets/icon/maxi-scooter.png"
+    }
+  ],
+  
+  "Cities": 
+   [   
+     {
+      "name": "Ahmedabad",
+      "dealers": [
+        { "title": "Power Ride", "location": "101 Shivaji Park", "contact": "8901234567" },
+        { "title": "Revolution Bikes", "location": "45 Sardar Vallabhai Rd", "contact": "9812345678" }
+      ]
+    },
+    {
+      "name": "Bangalore",
+      "dealers": [
+        { "title": "Fast Track Bikes", "location": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "contact": "9887456231" }
+      ]
+    },
+    {
+      "name": "Chennai",
+      "dealers": [
+        { "title": "AutoWheels", "location": "1001 Marina Rd", "contact": "9445632145" },
+        { "title": "Velocity Motors", "location": "201 Park Rd", "contact": "9865412345" }
+      ]
+    },
+    {
+      "name": "Coimbatore",
+      "dealers": [
+        { "title": "Coimbatore Motors", "location": "202 Avinashi Rd", "contact": "9843445566" },
+        { "title": "GoBikes", "location": "112 Peelamedu", "contact": "9678123456" }
+      ]
+    },
+    {
+      "name": "Delhi",
+      "dealers": [
+        { "title": "BikeMasters", "location": "50 Connaught Place", "contact": "9998765432" },
+        { "title": "Speedy Motors", "location": "99 Pusa Road", "contact": "9198765432" }
+      ]
+    },
+    {
+      "name": "Goa",
+      "dealers": [
+        { "title": "GoaMoto", "location": "58 Baga Rd", "contact": "9823456789" },
+        { "title": "MotoRiders", "location": "32 Candolim Beach Rd", "contact": "9678901234" }
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "dealers": [
+        { "title": "Dealer A", "location": "789 Sunset Blvd", "contact": "456-123-7890" },
+        { "title": "Dealer B", "location": "101 Hollywood St", "contact": "321-654-9870" }
+      ]
+    },
+    {
+      "name": "Indore",
+      "dealers": [
+        { "title": "IndoMoto", "location": "100 Palasia Rd", "contact": "8796543210" },
+        { "title": "Furious Wheels", "location": "54 MG Road", "contact": "7980012345" }
+      ]
+    },
+    {
+      "name": "Jaipur",
+      "dealers": [
+        { "title": "Raj Motors", "location": "1 Sikar Road", "contact": "8823456789" },
+        { "title": "Sunshine Bikes", "location": "58 New Market", "contact": "9056123456" }
+      ]
+    },
+    {
+      "name": "Kolkata",
+      "dealers": [
+        { "title": "SuperRide Motors", "location": "15 Central Park", "contact": "9001122334" },
+        { "title": "MotoWorld", "location": "22 MG Road", "contact": "8771234567" }
+      ]
+    },
+    {
+      "name": "Lucknow",
+      "dealers": [
+        { "title": "Uptown Motors", "location": "103 Hazratganj", "contact": "8123456789" },
+        { "title": "Turbo Bikes", "location": "44 Charbagh", "contact": "8551234567" }
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "dealers": [
+        { "title": "All IN ONE MOTORS", "location": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.", "contact": "9874563214" }
+      ]
+    },
+    {
+      "name": "Mysore",
+      "dealers": [
+        { "title": "WheelsHub", "location": "34 Agraharam Road", "contact": "9498765432" },
+        { "title": "Speed Pro", "location": "22 Hardinge Rd", "contact": "9612345678" }
+      ]
+    },
+    {
+      "name": "Nagaland",
+      "dealers": [
+        { "title": "Naga Motors", "location": "67 Dimapur Road", "contact": "9901122334" },
+        { "title": "Mountain Riders", "location": "82 Kohima City", "contact": "9712345678" }
+      ]
+    },
+    {
+      "name": "Nagpur",
+      "dealers": [
+        { "title": "Red Motors", "location": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.", "contact": "9887456231" }
+      ]
+    },
+    {
+      "name": "Navi Mumbai",
+      "dealers": [
+        { "title": "LocoMotive Motors", "location": "123 Manhattan Ave", "contact": "123-456-7890" },
+        { "title": "MAX Motors", "location": "456 Broadway", "contact": "987-654-3210" }
+      ]
+    },
+    {
+      "name": "Pune",
+      "dealers": [
+        { "title": "Speed Motors", "location": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "contact": "9845123456" }
+      ]
+    },
+    {
+      "name": "Surat",
+      "dealers": [
+        { "title": "Sonic Wheels", "location": "32 Ring Road", "contact": "9222334455" },
+        { "title": "MotoX", "location": "87 Ghod Dod Road", "contact": "9871234567" }
+      ]
+    },
+    {
+      "name": "Vadodara",
+      "dealers": [
+        { "title": "Velocity Motors", "location": "88 Sayajigunj", "contact": "9823456789" },
+        { "title": "Speedway Motors", "location": "22 Ellora Park", "contact": "9512345678" }
+      ]
+    },
+    {
+      "name": "Yavatmal",
+      "dealers": [
+        { "title": "Yavatmal Motors", "location": "11 Shree Nagar", "contact": "9521122334" },
+        { "title": "Highway Motors", "location": "56 Central Road", "contact": "9384567890" }
+      ]
+    }
+  ]
+  
+  
+  
+  
+  
+  
+}

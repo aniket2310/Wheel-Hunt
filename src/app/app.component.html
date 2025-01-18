@@ -1,3 +1,104 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu  [auto-hide]="false" contentId="main-content">
+    <ion-header class="ion-no-border">
+      <div class="bg"></div>
+      <ion-label class="notif">Notification
+        <mat-slide-toggle [(ngModel)]="isChecked" (change)="onToggleChange($event)">
+        </mat-slide-toggle></ion-label>
+      <ion-list>
+
+        <ion-menu-toggle [auto-hide]="false">
+        <ion-item button [routerLink]="['/home']" >
+        <ion-item-divider lines="none">
+          <ion-label class="menu-label"> HOME</ion-label>
+        </ion-item-divider>
+      </ion-item>
+      </ion-menu-toggle>
+        
+        <ion-menu-toggle [auto-hide]="false">
+        <ion-item button [routerLink]="['/home', 'recent-launches']" routerLinkActive="router-link-active" lines="none">
+          <ion-icon name="rocket" slot="start"></ion-icon>
+          <ion-label>Recent Launches</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle [auto-hide]="false">
+        <ion-item button [routerLink]="['/home', 'upcomming']" routerLinkActive="router-link-active" lines="none">
+          <ion-icon name="calendar" slot="start"></ion-icon>
+          <ion-label>Upcoming Bikes</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+        
+        <ion-menu-toggle [auto-hide]="false">
+        <ion-item button [routerLink]="['/home', 'electric-bikes']" routerLinkActive="router-link-active" lines="none">
+          <ion-icon name="battery-charging" slot="start"></ion-icon>
+          <ion-label>Electric Vehicles</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [auto-hide]="false">
+          <ion-item button [routerLink]="['/home', 'popular-comparison']" routerLinkActive="router-link-active" lines="none">
+          <ion-icon name="bar-chart" slot="start"></ion-icon>
+          <ion-label>Compare Bikes</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [auto-hide]="false">
+          <ion-item button [routerLink]="['/home', 'locate-dealers']">
+          <ion-icon name="location" slot="start"></ion-icon>
+          <ion-label>Locate Dealers</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [auto-hide]="false">
+          <ion-item button [routerLink]="['/home', 'news']">
+        <ion-item-divider lines="none">
+          <ion-label class="menu-label">TRENDING TOPICS & MEDIA</ion-label>
+        </ion-item-divider>
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [auto-hide]="false">
+          <ion-item button [routerLink]="['/home', 'news']" lines="none">
+          <ion-icon name="newspaper" slot="start"></ion-icon>
+          <ion-label>News</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [auto-hide]="false">
+          <ion-item button [routerLink]="['/home', 'expert-review']" lines="none">
+          <ion-icon name="star" slot="start"></ion-icon>
+          <ion-label>Expert Review</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+        
+
+        <ion-menu-toggle [auto-hide]="false">
+          <ion-item button [routerLink]="['/home']" >
+        <ion-item-divider lines="none">
+          <ion-label class="menu-label">OTHERS</ion-label>
+        </ion-item-divider>
+        </ion-item>
+        </ion-menu-toggle>
+
+
+        <ion-menu-toggle [auto-hide]="false">
+        <ion-item button [routerLink]="['/home', 'favourite']" lines="none">
+          <ion-icon name="heart" slot="start"></ion-icon>
+          <ion-label>Favourites</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [auto-hide]="false">
+        <ion-item button lines="none"(click)="showFeedbackDialog()" >
+          <ion-icon name="chatbubbles" class="chatbubbles" slot="start"></ion-icon>
+          <ion-label>Feedback</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+
+      </ion-list>
+    </ion-header>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
 </ion-app>

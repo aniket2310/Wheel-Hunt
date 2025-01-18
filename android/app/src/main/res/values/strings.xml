@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">WheelHunt</string>
+    <string name="title_activity_main">WheelHunt</string>
+    <string name="package_name">Aniket.wheelhunt</string>
+    <string name="custom_url_scheme">Aniket.wheelhunt</string>
+</resources>

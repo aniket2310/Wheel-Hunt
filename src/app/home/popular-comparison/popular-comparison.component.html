@@ -1,0 +1,88 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+      Popular Comparison
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+      <ion-icon name="search" (click)="toggleSearch()"></ion-icon>
+      <ion-icon name="location-outline" (click)="LocateDealers()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-searchbar 
+    class="searchbyFilter" 
+    [(ngModel)]="searchText" 
+    (ionInput)="filterFromComparison()" 
+    debounce="500" 
+    *ngIf="isSearchVisible">
+  </ion-searchbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- <div class="comp-bike-main-div">
+    <div class="comp-bike-block">
+      <div class="comp-bike-sub">Select Bike 1
+        <ion-icon name="bicycle-outline"></ion-icon>
+      </div>
+    </div>
+    <div class="comp-circle">
+      <div>Vs</div>
+    </div>
+    <div class="comp-bike-block">
+      <div class="comp-bike-sub">Select Bike 2
+        <ion-icon name="bicycle-outline"></ion-icon>
+      </div>
+    </div>
+  </div>
+ <div >
+  <button class="cmp_bike">Compare Bikes</button>
+ </div> -->
+
+ <div class="Compare_Add">
+
+  <div><ion-icon class="add_icon" name="add-circle-outline"></ion-icon></div>
+  <div class="add_vs">Vs</div>
+  <div><ion-icon class="add_icon" name="add-circle-outline"></ion-icon></div>
+</div>
+<div class="button_Container">
+<div>
+  <button class="compare_button">Compare</button>
+</div>
+</div>
+
+
+
+  <div class="comp-heading">Most Popular Comparisons</div>
+
+  
+  <div class="bike-comparison-card" *ngFor="let comparison of bikeComparisons" (click)="navigateToComparedBikes(comparison)">
+    <ion-grid>
+      <ion-row class="bike-comparison-row ion-align-items-center">
+  
+        <ion-col size="5" class="bike-col">
+          <div class="bike-item">
+            <img [src]="comparison.bike1.image" class="popular_Comp_IMg" [alt]="comparison.bike1.name" />
+            <p>{{ comparison.bike1.name }}</p>
+          </div>
+        </ion-col>
+  
+  
+        <ion-col size="2" class="vs-col">
+          <div class="vs-text">Vs</div>
+        </ion-col>
+  
+  
+        <ion-col size="5" class="bike-col">
+          <div class="bike-item">
+            <img [src]="comparison.bike2.image" class="popular_Comp_IMg" [alt]="comparison.bike2.name" />
+            <p>{{ comparison.bike2.name }}</p>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  
+</ion-content>

@@ -1,0 +1,185 @@
+
+.title{
+  font-family: "Joan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-buttons {
+  ion-icon {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+}
+ion-toolbar {
+  --background: #AEA8A8;   
+  color: black;          
+  --padding-top: 15px;    
+  --padding-bottom: 15px;
+}
+
+ion-title {
+  color: black; 
+  font-family: "joan";
+  font-size: 20px;
+}
+
+ion-icon {
+  color: black; 
+}
+
+.comp-bike-main-div{
+  display: flex;  
+  margin: 0 23px;
+  
+  
+  .comp-bike-block{
+    height: 142px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #AEA8A8;
+    margin: 30px 10px;
+    border-radius: 10px;
+    
+    .comp-bike-sub{
+  
+      height: 114px;
+      width: 125px;
+      background-color: #AEA8A8;
+      padding: 25px 15px;
+      margin: 10px;
+      border-radius: 10px;
+  
+      text-align: center;
+  }
+      ion-icon{
+        font-size: 45px;    
+      }
+    } 
+  
+    .comp-circle{
+      margin-top: 88px;
+      color: #ff5e00; /* Orange color */
+      font-weight: 600;
+    }
+  
+  }
+  
+  
+  .popular-comparison{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .popular-comparison-a {
+  
+    position: relative;
+    top: 1.3rem;
+    color: blue;
+  
+  }
+  
+  .comp-heading{
+  font-size: 25px;
+  margin: 10px 5px;
+  padding-bottom: 10px;
+  }
+  
+  
+  .bike-comparison-card {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 10px;
+    border: 1px solid black;
+  
+  }
+  
+  .bike-comparison-row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .bike-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bike-item {
+    p{
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    }
+  
+    .popular_Comp_IMg{
+      height: 12vh;
+      width: 33vw
+    }
+  }
+  
+.sub-topic {
+  --color: #AEA8A8; /* Define the variable */
+  color: var(--color); /* Apply the variable */
+}
+
+  
+  .vs-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vs-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5e00; /* Orange color */
+  }
+
+  .compared-bike-model{
+    margin: 13px 0;
+    .version{
+      font-size: 13px;
+      --color: #AEA8A8; 
+      color: var(--color); 
+    }
+  }
+  
+  .comp-bike-main-div{
+ 
+    background-color: #fff;
+    border: 2px solid #AEA8A8;
+    margin: 25px 10px;
+    border-radius: 10px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .specifications{
+
+    margin: 10px 10px;
+    .spef-heading{
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .spef-sub{
+      display: flex;
+      justify-content: space-between;
+      margin: -1px 50px;
+      color:  #f85528;
+      font-weight: 600;
+      
+
+    }
+
+    .horizontal-line{
+      border: none;
+      border-top: 2px solid #AEA8A8; 
+    }
+  }

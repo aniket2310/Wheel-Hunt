@@ -1,0 +1,45 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+      Recent Launches
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+      <ion-icon name="search" (click)="toggleSearch()"></ion-icon>
+      <ion-icon name="location-outline" (click)="LocateDealers()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-searchbar class="searchbyFilter" [(ngModel)]="searchText"  (input)="filterBikes()" debounce="500" *ngIf="isSearchVisible"></ion-searchbar>
+</ion-header>
+
+<ion-content  *ngIf="filteredBikes.length">
+  <div class="Recent-Launch_card" *ngFor="let bike of filteredBikes">
+    <ion-img [src]="bike.image" class="Recent_Bikes_Img" [alt]="bike.name"></ion-img>
+    <div class="bike-details-container">
+      <div class="bike-info">
+        <h2 class="bike-name">{{ bike.name }}</h2>
+        <p class="bike-specs">{{ bike.specs }}</p>
+        <p class="bike-price-label">Ex-Showroom price, Mumbai</p>
+        <h3 class="bike-price">{{ bike.price | rupee: 'en-IN': 0 }}</h3>
+        <div class="button-container">
+          <ion-button (click)="goToOnRoadPrice(bike)" expand="block">
+            Check Out On Road Price
+          </ion-button>
+          <ion-icon 
+            class="favourite" 
+            name="heart" 
+            [class.active]="bike.isFavourite" 
+            (click)="toggleFavourite(bike)">
+          </ion-icon>        
+        </div>
+      </div>
+      <div class="bike-launch">
+        <p class="launch-label">Launch Date</p>
+        <p class="launch-date">{{ bike.launchDate }}</p>
+      </div>
+    </div>
+  </div>
+</ion-content>

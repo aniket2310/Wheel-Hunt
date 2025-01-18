@@ -1,0 +1,41 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+    Favourites
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="Favourite-card" *ngFor="let bike of favouriteBikes">
+    <ion-img [src]="bike.image" class="Favourite_card_img" [alt]="bike.name"></ion-img>
+    <div class="bike-details-container">
+      <div class="bike-info">
+        <h2 class="bike-name">{{ bike.name }}</h2>
+        <p class="bike-specs">{{ bike.specs }}</p>
+        <p class="bike-price-label">Ex-Showroom price, Mumbai</p>
+        <h3 class="bike-price">{{ bike.price }}</h3>
+        <div class="button-container">
+          <ion-button (click)="goToOnRoadPrice()" expand="block">
+            Check Out On Road Price
+          </ion-button>
+          <ion-icon 
+            class="favourite" 
+            name="heart" 
+            [class.active]="bike.isFavourite"
+            (click)="toggleFavourite(bike)">
+          </ion-icon>        
+        </div>
+      </div>
+      <div class="bike-launch">
+        <p class="launch-label">Launch Date</p>
+        <p class="launch-date">{{ bike.launchDate }}</p>
+      </div>
+    </div>
+  </div>
+</ion-content>

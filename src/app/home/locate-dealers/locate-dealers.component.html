@@ -1,0 +1,50 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+      Top Dealers
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+    <ion-icon name="search" (click)="toggleSearch()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+  <!-- Search bar for filtering cities -->
+  <ion-searchbar class="searchbyFilter" [(ngModel)]="searchText" (ionInput)="filterCities()" debounce="500" *ngIf="isSearchVisible"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <div class="container-fluid">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div *ngFor="let city of filteredCities; let i = index" class="accordion-item">
+        <h2 class="accordion-header" id="flush-heading{{ i }}">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            [attr.data-bs-target]="'#flush-collapse' + i"
+            aria-expanded="false"
+            [attr.aria-controls]="'flush-collapse' + i"
+          >
+            <h3>{{ city.name }}</h3>
+          </button>
+        </h2>
+        <div
+          id="flush-collapse{{ i }}"
+          class="accordion-collapse collapse"
+          [attr.aria-labelledby]="'flush-heading' + i"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <div *ngFor="let dealer of city.dealers" class="mb-3">
+              <h5>{{ dealer.title }}</h5>
+              <p><ion-icon name="location"></ion-icon> {{ dealer.location }}</p>
+              <p><ion-icon name="call"></ion-icon> {{ dealer.contact }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

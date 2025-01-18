@@ -1,20 +1,184 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="false">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-title>WheelHunt</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+      <!-- <ion-icon name="search"></ion-icon> -->
+      <ion-icon name="location-outline" (click)="goTODealer()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>  
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content fullscreen>
+  <div class="image-container">
+    <ion-img id="banner-img" src="assets/icon/images/istockphoto-1292830954-612x612.jpg" alt="Bike Image"></ion-img>
+    <!-- <ion-searchbar class="custom-searchbar" placeholder="e.g. Royal Enfield"></ion-searchbar> -->
   </div>
+
+  <div class="discover_section">
+  <div class="discover" >
+    <ion-item lines="none">
+      <h2>Discover Your Bike</h2>
+    </ion-item>
+  </div>
+
+    <ion-row>
+      <ion-col size="12" size-md="3" (click)="goToBrands()">
+        <div class="discover-section">
+          <ion-icon name="pricetag-outline" class="discover-icon"></ion-icon>
+          <div class="discover-title">
+            <h2 class="discover-heading">Brand</h2>
+            <p class="discover-desc">Discover your ideal ride from trusted top brands.</p>
+          </div>
+        </div>
+      </ion-col>
+
+      <ion-col size="12" size-md="3" (click)="goToBudget()">
+        <div class="discover-section">
+          <ion-icon name="card-outline" class="discover-icon"></ion-icon>
+          <div class="discover-title">
+            <h2 class="discover-heading">Budget</h2>
+            <p class="discover-desc">Find the perfect ride that fits your budget.</p>
+          </div>
+        </div>
+      </ion-col>
+
+      <ion-col size="12" size-md="3" (click)="goToRidingPosition()">
+        <div class="discover-section">
+          <ion-icon name="bicycle-outline" class="discover-icon"></ion-icon>
+          <div class="discover-title">
+            <h2 class="discover-heading">Riding Posture</h2>
+            <p class="discover-desc">Find bikes for your ideal riding position.</p>
+          </div>
+        </div>
+      </ion-col>
+
+      <ion-col size="12" size-md="3" (click)="goToDisplacement()">
+        <div class="discover-section">
+          <ion-icon name="ribbon-outline" class="discover-icon"></ion-icon>
+          <div class="discover-title">
+            <h2 class="discover-heading">Displacement</h2>
+            <p class="discover-desc">Pick your thrill: explore bikes by engine capacity.</p>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+  
+    <div class="slider-bar">
+      <app-banner [slides]="slides"></app-banner>
+    </div>
+  
+    
+  <div class="main-router">
+    <a [routerLink]="['most-popular']">Most Popular</a>
+    <a [routerLink]="['recent-launches']">Recent Launches</a>
+    <a [routerLink]="['upcomming']">Upcoming Bikes</a>
+  </div>
+
+
+<div class="popular-card-div">
+  <div class="popular-card" *ngFor="let bike of All_bike_Data  | slice:0:7 ">
+    <ion-img [src]="bike.image" class="popular_bike_img"></ion-img>
+    <div class="popular-card-sub-div">
+      <div class="popular-card-title">{{ bike.name }}</div>
+      <p>{{ bike.location }}</p>
+      <p>{{ bike.price | rupee: 'en-IN': 0 }}/- Onwards</p>
+      <ion-buttons expand="full" >
+        <ion-button class="custom-outline-button" (click)="goToOnRoadPrice(bike)"  fill="outline">
+          <ion-label >Check On-Road Price</ion-label>
+        </ion-button>
+      </ion-buttons>
+    </div>
+  </div>
+</div>
+
+  <div class="view-all-bikes">
+    <ion-buttons expand="full" >
+      <ion-button fill="outline">
+ <a routerLinkActive="router-link-active" [routerLink]="['recent-launches']">VIEW ALL BIKES</a>
+      </ion-button>
+    </ion-buttons>
+  </div>
+
+ 
+
+<div class="popular-comparison">
+  <h3>
+    Popular Comparison
+  </h3>
+  <a class="popular-comparison-a" [routerLink]="['popular-comparison']" color="dark">View all</a>
+</div>
+
+<div class="bike-comparison-card" *ngFor="let comparison of bikeComparisons | slice:0:3" (click)="navigateToComparedBikes(comparison)">
+  <ion-grid>
+    <ion-row class="bike-comparison-row ion-align-items-center">
+      <!-- Left Bike -->
+      <ion-col size="5" class="bike-col">
+        <div class="bike-item">
+          <img [src]="comparison.bike1.image" class="popular_Comp_IMg" [alt]="comparison.bike1.name" />
+          <p>{{ comparison.bike1.name }}</p>
+        </div>
+      </ion-col>
+
+      <!-- "Vs" Section -->
+      <ion-col size="2" class="vs-col">
+        <div class="vs-text">Vs</div>
+      </ion-col>
+
+      <!-- Right Bike -->
+      <ion-col size="5" class="bike-col">
+        <div class="bike-item">
+          <img [src]="comparison.bike2.image" class="popular_Comp_IMg" [alt]="comparison.bike2.name" />
+          <p>{{ comparison.bike2.name }}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+<div class="news-title">
+  <h3>
+    News
+  </h3>
+  <a class="news-title-a"  (click)="goToNewsComponent()" color="dark">View all</a>
+  <!-- [href]="article.url" target="_blank" -->
+</div>
+<div class="news-sub-card" (click)="goToNewsComponent()">
+  <div class="news-cardd" *ngFor="let article of launchArticles | slice:0:2">
+    <ion-card class="news-card">
+      <ion-img [src]="article.urlToImage" [alt]="article.title"></ion-img>
+      <div class="card-header">
+        <ion-card-title class="title-news">{{ article.title }}</ion-card-title>
+      </div>
+      <ion-card-content>
+        {{ article.content }}
+      </ion-card-content>
+      <h3 class="reviewer-name">by {{ article.author || 'Unknown' }}</h3>
+    </ion-card>
+  </div>
+</div>
+
+<div class="news-title">
+  <h3>Expert Review</h3>
+  <a class="news-title-a" [routerLink]="['/home', 'expert-review']" color="dark">View all</a>
+</div>
+
+<div class="news-sub-card expert">
+  <div class="news-cardd" *ngFor="let article of reviewArticles | slice:0:2">
+    <ion-card class="news-card" (click)="goToExpertReview()">
+      <ion-img [src]="article.urlToImage" [alt]="article.title"></ion-img>
+      <div class="card-header">
+        <ion-card-title class="title-news">{{ article.title }}</ion-card-title>
+      </div>
+      <ion-card-content>
+        {{ article.content }}
+      </ion-card-content>
+      <h3 class="reviewer-name">by {{ article.author || 'Unknown' }}</h3>
+    </ion-card>
+  </div>
+</div>
+
 </ion-content>

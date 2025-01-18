@@ -1,0 +1,37 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+      Expert Review
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+      <ion-icon name="search"></ion-icon>
+      <ion-icon name="location-outline"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+ <ion-card>
+  <div *ngIf="articles.length; else noNews">
+    <div class="main_news_card" *ngFor="let article of articles | slice:0:20; let i = index">
+      <img 
+        class="Article_Image" 
+        [src]="article.urlToImage"
+        alt="{{ article.title }}" 
+        (error)="removeArticle(i)" />
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.description }}</p>
+        <button class="News_Link_button"><a [href]="article.url" target="_blank" class="card-link">Read More</a>
+</button>
+    </div>
+  </div>
+ </ion-card>
+</ion-content>
+
+<ng-template #noNews>
+  <p>No news available right now.</p>
+</ng-template>

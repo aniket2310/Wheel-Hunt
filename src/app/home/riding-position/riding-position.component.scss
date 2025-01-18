@@ -1,0 +1,45 @@
+
+.title{
+  font-family: "Joan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-buttons {
+  ion-icon {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+}
+ion-toolbar {
+  --background: #AEA8A8;   
+  color: black;          
+  --padding-top: 15px;    
+  --padding-bottom: 15px;
+}
+
+ion-title {
+  color: black; 
+  font-family: "joan";
+  font-size: 20px;
+}
+
+ion-icon {
+  color: black; 
+}
+
+.category-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.category-card img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.category-card p {
+  font-size: 12px;
+  color: #333;
+}

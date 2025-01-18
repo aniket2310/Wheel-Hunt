@@ -1,0 +1,66 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Detailed Price
+    </ion-title>
+    <ion-buttons class="header-buttons" slot="primary">
+      <!-- <ion-icon name="search" aria-label="Search"></ion-icon>
+      <ion-icon name="location-outline" aria-label="Location"></ion-icon> -->
+        </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="selectedBike">
+  <h3 class="on-detailed-title">{{ selectedBike.name }}</h3>
+  
+  <div class="price_details">
+    <div class="detailed_bike_price" *ngFor="let price of onRoadPriceDetails">
+      <p>{{ price.label }}</p>
+      <b>
+        <p>₹ {{ price.value }}</p>
+      </b>
+    </div>
+    
+    <div class="custom-hr"></div>
+    
+    <div class="detailed_bike_price">
+      <p>On Road Price</p>
+      <b>
+        <p>₹ {{ selectedBike.onRoadPrice || 'N/A' }}</p>
+      </b>
+    </div>
+  </div>
+
+  <ion-label class="available_color">Available Colors</ion-label>
+  <div class="scroll-container">
+    <div class="color-item" *ngFor="let color of selectedBike.availableColors || []">
+      <div class="color-box" [ngStyle]="{'background-color': color.hex}"></div>
+      <p>{{ color.name }}</p>
+    </div>
+  </div>
+
+  <div class="detailed_Varient_price">
+    <p><span>Variant</span></p>
+    <p><span>Price</span></p>
+  </div>
+  <div class="custom-hr"></div>
+  
+  <div class="detailed_bike_price" *ngFor="let variant of selectedBike.bikeVariants || []">
+    <p>{{ variant.name }}</p>
+    <b>
+      <p>₹ {{ variant.price }}</p>
+    </b>
+  </div>
+
+  <!-- Locate Dealer Button -->
+  <button class="contact_dealer" (click)="goTODealer()">
+    Locate Dealer
+  </button>
+</ion-content>
+
+<ion-content *ngIf="!selectedBike">
+  <p>Bike details are unavailable.</p>
+</ion-content>

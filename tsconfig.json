@@ -10,6 +10,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true, 
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -19,7 +20,8 @@
     "target": "es2022",
     "module": "es2020",
     "lib": ["es2018", "dom"],
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "esModuleInterop": true  // Move this here
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

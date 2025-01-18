@@ -1,12 +1,5 @@
-#container {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 #container strong {
   font-size: 20px;
@@ -16,12 +9,401 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+.title{
+  font-family: "Joan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-buttons {
+  ion-icon {
+    font-size: 25px;
+    padding-right: 15px;
+  }
+}
+ion-toolbar {
+  --background: #AEA8A8;   
+  color: black;          
+  --padding-top: 15px;    
+  --padding-bottom: 15px;
+}
+
+ion-title {
+  color: black; 
+  font-family: "joan";
+  font-size: 25px;
+}
+
+ion-icon {
+  color: black; 
+}
+
+.image-container{
+  width: 120vw;
+  height: 35vh;
+  #banner-img{
+    width: 50vh;
+    height: auto;
+
+  }
+}
+
+.custom-searchbar{
+  width: 66%;
+  --border-radius: 20px;
+  bottom: 105px;
+  left: 35px;
+  height: 20%;
+}
+
+
+// .discover_section{
+//   // position: relative;
+//   // top: 50px;
+// }
+
+.discover {
+  ion-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    h2 {
+      font-size: 25px;
+      text-align: center;
+      width: 100%; 
+      font-weight: 600;
+      padding: 20px 0;
+
+    }
+  }
+}
+.discover-section {
+  display: flex;
+  align-items: center;
+  border: 1px solid #b43f3f;
+  border-radius: 8px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+  margin: 0 15px;
+}
+
+// .discover-section:hover {
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+// }
+
+.discover-icon {
+  font-size: 32px;
+  color: #ff5733;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.discover-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.discover-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.discover-desc {
+  font-size:11px;
+  margin: 0;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+.links-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; 
+}
+
+.main-router {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.main-router a {
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+  padding: 0px 8px;
+}
+
+.main-router a:hover {
+  text-decoration-color: #FF3700;
+  color: #FF3700; 
+}
+
+@media (min-width: 768px) {
+  .image-container {
+    height: 40vh;
+  }
+
+  ion-title {
+    font-size: 30px;
+  }
+}
+
+
+.popular-card-div {
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+  gap: 15px;
+  scroll-snap-type: x mandatory;
+  margin-left: 20px;
+}
+
+.popular-card-div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.popular-card {
+  .popular_bike_img{
+  width: 80vw;
+  height:20vh;
+  margin-top:15px ;
+  }
+}
+
+.popular-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  border: 1px solid #6b6a6a;
+  border-radius: 10px;
+  overflow: hidden; 
+  margin-top: 20px;
+//   img{
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     -o-object-fit: inherit;
+//     object-fit: inherit;
+//     -o-object-position: inherit;
+//     object-position: inherit;
+// }
+  }
+
+
+.popular-card-sub-div {
+  padding: 9px 17px;
+  margin: 3px
+}
+
+.popular-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.popular-card-content p {
+  margin: 2px 0;
+}
+
+
+
+
+.custom-outline-button {
+  color: #FF3700;
+  padding: 15px 10px;
+  --border-radius: 10px;
+}
+
+.custom-outline-button::part(native) {
+  border-radius: 10px !important; 
+}
+
+.custom-outline-button ion-label {
+  padding: 13px 8px;
+}
+
+.view-all-bikes ion-buttons {
+  margin: 35px 14px;
+}
+
+.view-all-bikes ion-button {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  color: #FF3700;
+  font-size: 16px;
+  --border-radius: 12px;
+}
+
+
+
+
+
+
+.view-all-bikes ion-buttons {
+  margin: 35px 14px; 
+}
+
+.view-all-bikes ion-button {
+  text-align: center;     
+  width: 100%;            
+  justify-content: center;
+  color:#FF3700;
+  font-size: 16px;
+  --border-radius:12px;
+  a{
+    color: #FF3700;
+    text-decoration: none;
+    padding: 13px 114px;
+  }
+}
+
+.popular-comparison{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  
+  h3{
+    font-weight: 600;
+  }
+}
+
+
+.popular-comparison-a {
+  color: blue;
+}
+
+
+.bike-comparison-card {
+  padding: 5px 0;
+  border-radius: 8px;
+  border: 1px solid #6b6a6a;
+  margin: 10px 10px;
+
+}
+
+.bike-comparison-row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.bike-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// .bike-item img {
+//   max-width: 100%;
+//   height: auto;
+// }
+
+.bike-item {
+  p{
+    padding-top: 10px;
+  font-size: 9px;
+  font-weight: 500;
+  }
+
+  .popular_Comp_IMg{
+    height: 13vh;
+    width: 34vw;
+  }
+}
+
+.vs-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vs-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5e00;
+}
+
+
+.news-title{
+  position: relative;
+  top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+  h3{
+    font-weight: 600;
+  }
+  
+}
+
+.news-title-a {
+
+  // position: relative;
+  // top: 1.3rem;
+  color: blue;
+}
+
+.news-sub-card{
+  position: relative;
+  top: 3rem;
+  margin: 10px 10px;
+  padding: 0 15px;
+}
+
+.title-news{
+  padding: 10px 15px
+}
+
+.news-cardd{
+  margin: 33px 0;
+  position: relative;
+  bottom: 25px;
+}
+
+.News_Link_button{
+  background-color: #e91e0f;
+  font-size: 25px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+  
+a{
+  color: white;
+  text-decoration: none;
+}  
+
+.main_news_card{
+  padding: 10px 14px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.reviewer-name{
+  text-align: right;
+  padding: 0 10px;
+  font-size: 15px;
+  color: rgb(123, 121, 121);
 }

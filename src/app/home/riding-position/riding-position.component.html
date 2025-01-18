@@ -1,0 +1,27 @@
+<ion-header [translucent]="false">
+  <ion-toolbar>
+    <ion-title>
+      Riding Posture
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons class="header-buttons" slot="primary">
+      <!-- <ion-icon name="search"></ion-icon>
+      <ion-icon name="location-outline"></ion-icon> -->
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4" *ngFor="let category of bikeCategories">
+        <div class="category-card" (click)="onBrandClick(category.posture)">
+          <img [src]="category.image" alt="{{ category.posture }}" />
+          <p>{{ category.posture }}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_key :'2cb0f76377094bf28cc2556594883cc1',
+  
+  API_URL: "https://newsapi.org/v2/everything?q=",
 };
 
 /*
@@ -14,3 +17,6 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+
+
